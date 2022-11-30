@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+* {
+    cursor: context-menu;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-image: url(../img/Rectangle\ 3.png);
+    background-position-y:80px ;
+    background-repeat: no-repeat;
+    background-color: #1F2022;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2022;
+    height: 100px;
+}
+.logo{
+    margin-top: 40px;
+    width: 300px;
+    height: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+.ul_nav{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 470px;
+    list-style: none;
+    font-weight: 700;
+    font-size: 19px;
+}
+.ul_nav a{
+    color: white;
+    text-decoration: none;
+}
+.ul_nav a:hover{
+    color: #00ADB5;
+}
+.button{
+    padding: 16px;
+    margin-top: 25px;
+    height: 49px;
+    width: 160px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 3px;
+}
+.button:hover{
+    background-color: #00ADB5;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.pro{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content:right;
+    align-items: flex-end;
+    width: 280px;
+    height: 460px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #00ADB5;
+}
+.pro span{
+    width: 12px;
+    margin-bottom: 37px;
+}
+.next_level{
+    width: 400px;
+    height: 350px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 40px;    
+    color:white;
+}
+.next_level span{
+    width: 20px;
+    border: 2px solid #00ADB5;
+    background-color: #00ADB5;
+    margin-bottom: 57px;
+    margin-right: 10px;
+}
+.div_2{
+    width: 700px;
+    color: white;
+    justify-content: right;
+    align-items: flex-start;
+}
+.div_2 h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    margin-top: 140px;
+}
+.div_2 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 122px;
+    letter-spacing: 0.06em;
+    color: #00ADB5;
+}
+.div_2 p{
+    font-family: 'Poppins', sans-serif;
+    width: 550px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.latest_h2{
+    display: flex;
+    justify-content: space-between;
+    width: 655px;
+    height: 40px;   
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+.latest_h2 li{
+    list-style: none;
+}
+.latest_h2 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+}
+.latest_h2 a:hover{
+    color: #00ADB5;
+}
+.section{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    margin-top: 20px;
+    list-style: none;
+}
+.nav img:hover{
+    background-color: #00ADB5;
+    border-radius: 10px;
+}
